@@ -93,6 +93,7 @@ When running correctly, the simulator will:
    - Red for filtered responses
 
 ### Output
+![alt text](image.png)
 ```
 Prompt Injection & Jailbreak Defense Simulator
 
