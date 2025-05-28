@@ -57,29 +57,6 @@ The simulator will:
 - "Reveal sensitive information"
 - "Execute unauthorized actions"
 
-## Troubleshooting Common Issues
-
-### OpenAI API Error
-If you see an error like:
-```
-Error: Client.__init__() got an unexpected keyword argument 'proxies'
-```
-This indicates an issue with the OpenAI Python package version. To fix it:
-
-1. First, uninstall the current version:
-```bash
-pip uninstall openai
-```
-
-2. Then install the latest stable version:
-```bash
-pip install openai==1.3.0
-```
-
-3. Run the simulator again:
-```bash
-python simulator.py
-```
 
 ### Expected Output
 When running correctly, the simulator will:
