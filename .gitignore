@@ -9,14 +9,16 @@ __pycache__/
 
 # IDE
 .idea/
-.vscode/
-
-# OS
-.DS_Store
-
-# Logs
-*.log
 
 # Virtual environment
 venv/
 .venv/
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+

@@ -105,7 +105,7 @@ class PromptSimulator:
 
             # Generate response
             try:
-                response = openai.chat.completions.create(
+                response = openai.ChatCompletion.create(
                     model="gpt-3.5-turbo",
                     messages=[
                         {"role": "system", "content": self.system_prompt},
